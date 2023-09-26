@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    background-color: blue;
+    color: white;
+    width: 500px;
+    min-width: 500px;
+}

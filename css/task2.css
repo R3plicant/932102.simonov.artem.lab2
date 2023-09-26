@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 100px;
+    background-color: #d8d8d8;
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.italic {
+    font-style: italic;
+}
+.left-column {
+    background-color: lightgreen;
+    width: 25%;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+}
+.fluid-column {
+    display: inline;
+}
+.right-column {
+    right: 0;
+    padding: 5px;
+    float: right;
+    background-color: limegreen;
+    width: 200px;
+}
+.footer {
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    clear: both;
+}
+
+a {
+    color: gold;
+}

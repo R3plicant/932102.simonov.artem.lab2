@@ -3,10 +3,8 @@ body {
     margin: 0;
 }
 .header {
-}
-.header-text {
-}
-.content {
+    height: 100px;
+    background-color: #d8d8d8;
 }
 .bold {
     font-weight: bold;
@@ -28,9 +26,11 @@ body {
     display: inline;
 }
 .footer {
+    height: 25px;
     background-color: black;
     text-align: center;
-    clear: left;
+    padding-top: 5px;
+    clear: both;
 }
 
 a {
