@@ -1,0 +1,12 @@
+.inline-block {
+    display: inline-block;    
+    width: 200px;
+    height: 100px;
+    margin: 10px;    
+    background-color: lightgreen;
+}
+
+.block {
+    background-color: lightgreen;
+    margin-top: 10px;
+}

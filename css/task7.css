@@ -1,0 +1,53 @@
+.static {
+    position: static;
+    width: 150px;
+    height: 100px;
+    color: #fff;
+    background-color: blue;
+}
+
+.relative {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    color: #fff;
+    background-color: brown;
+}
+
+.relative-moved {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    color: #fff;
+    left: 25px;
+    top: -25px;
+    background-color: green;
+}
+
+.relative-with-child {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(207, 41, 69);
+    color: #fff;
+}
+
+.absolute {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: 50px;
+    right: 0;
+    background-color: darkblue;
+}
+
+.fixed {
+    width: 150px;
+    height: 150px;    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    background-color: green;
+    color: #fff;
+}

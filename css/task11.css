@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    border: 1px solid green;
+}
+
+.text {
+    flex-grow: 1;    
+    background-color: rgb(186, 238, 255);
+}

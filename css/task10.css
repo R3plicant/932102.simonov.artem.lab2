@@ -1,0 +1,12 @@
+.block-float {
+    width: 200px;
+    height: 100px;
+    margin: 20px;    
+    float: left;    
+    background-color: lightgreen;
+}
+
+.block-with-clear-property {
+    clear: left;    
+    background-color: lightgreen;
+}

@@ -1,0 +1,37 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(168, 227, 78);
+    text-align: center;
+}
+
+.left-column {
+    width:200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.left-column-ul {
+    background-color: wheat;
+    padding: 10px 15px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    background-color: rgb(185, 185, 185);
+}
+
+.text {
+    padding-bottom: 50px;
+}
+

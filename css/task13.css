@@ -1,0 +1,31 @@
+.content {
+    display: flex;
+    border: 2px solid green;
+    background-color: aqua;
+}
+
+.left-block {
+    width: 30%;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.left-block-ul {
+    background-color: wheat;
+    margin: 0px;
+    padding: 10px 20px 20px 40px;
+    box-sizing: border-box;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(172, 172, 172);
+}
+
+.right-block-row img {
+    width: 50%;
+    float: right;
+    object-fit:contain;
+}
